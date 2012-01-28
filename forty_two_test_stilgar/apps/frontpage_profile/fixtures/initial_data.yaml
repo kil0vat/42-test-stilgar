@@ -1,0 +1,14 @@
+- model: frontpage_profile.profile
+  pk: 1
+  fields:
+    first_name: Robert
+    last_name: Jordan
+    date_of_birth: 1948-10-17
+    bio: |
+         'Jordan published eleven books of a projected twelve total in the main sequence of the Wheel of Time series. Reviewers and fans of the earlier books noted a slowing of the pace of events in the last few installments owing to the expansion of scale of the series as a whole.
+
+         Because of his health problems, Jordan did not work at full force on the final installment A Memory of Light (later split into three volumes beginning with The Gathering Storm), but blog entries confirmed that he continued work on it until his death, and he shared all of the significant plot details with his family not long before he died. He maintained that in doing so the book will get published even if "the worst actually happens." On December 7, 2007, Tor Books announced that Brandon Sanderson had been chosen to finish the Wheel of Time series. Harriet McDougal, Jordan\'s widow, chose him after reading Mistborn: The Final Empire.'
+    contacts: |
+              Charleston
+              South Carolina
+              USA
