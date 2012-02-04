@@ -1,14 +1,213 @@
 - model: frontpage_profile.profile
   pk: 1
   fields:
-    first_name: Robert
-    last_name: Jordan
-    date_of_birth: 1948-10-17
+    first_name: Eugene
+    last_name: Gilewski
+    date_of_birth: 1986-11-18
     bio: |
-         'Jordan published eleven books of a projected twelve total in the main sequence of the Wheel of Time series. Reviewers and fans of the earlier books noted a slowing of the pace of events in the last few installments owing to the expansion of scale of the series as a whole.
+      Лінь. Це основне, що про мене можна сказати для вирізнення у роді «людина». Тому першим абзацем.
 
-         Because of his health problems, Jordan did not work at full force on the final installment A Memory of Light (later split into three volumes beginning with The Gathering Storm), but blog entries confirmed that he continued work on it until his death, and he shared all of the significant plot details with his family not long before he died. He maintained that in doing so the book will get published even if "the worst actually happens." On December 7, 2007, Tor Books announced that Brandon Sanderson had been chosen to finish the Wheel of Time series. Harriet McDougal, Jordan\'s widow, chose him after reading Mistborn: The Final Empire.'
+      Маю великий штучний інтелект та декілька ексбібайт пам’яті з RAID 1 на борту. Але можливість навчання вимкнена апаратно перемикачем під скальпом.
+
+      Колишній студент Святої Інквізиції. Одружився і пішов нормально працювати. Цікавився догматикою: сакраментологія, еклезіологія; також екуменізмом (oecumenism) та апологетикою (incensio haereticos). Не люблю секти, в тому числі всі неопротестантські, але маю хороших друзів-сектантів.
+
+      Працюю як фрілансер (вільний найманець) веб-майстром. Раніше здебільшого займався XHTML-верстанням, зараз збіркою сайтів з готових компонентів (Drupal 6/7, раніше Joomla 1.5), програмуванням на PHP, JavaScript, та настроюванням хостінгу/серверу. Мігрую на Python (і Django).
+
+      Люблю Латину, але лінь не дає її вчити. Ненавиджу англійську та російську, але терпляче користуюсь. Люблю математику, фізику — той же прикол, що і з латиною. Люблю програмування на Python, ненавиджу PHP, поважаю багато інших мов.
+
+      Користуюсь Лінуксом, чути не хочу про віндовс. Лінукс — Дебіан, чути не хочу про Бубунту. Лінукс ненавиджу, мрію перейти на Debian GNU/HURD. Широко використовую командну оболонку, в тому числі як єдиний файловий менеджер. Використовував GNOME (півроку), IceWM (місяць), KDE 3 (місяць), FVWM (три роки) та KDE 4 на десктопі + FVWM на ноутбуці (півтора роки), після того як налаштував у FVWM деякі фічі з KDE 4 користуюсь FVWM всюди. Використовую vim; так, мабуть emacs рулить, але все інше — точно відстій. Використовую Opera, можливо колись перейду на Firefox заради кращої підтримки веб-стандартів (але тільки після апгрейду заліза і сильного конфігурування). Ненавиджу комп’ютери, люблю паперові книжки.
+
+      Люблю наукову фантастику та (більше) фентезі, бойовики a la Шварценегер та старі фільми/серіали на зразок Star trek, де сюжети ще не замусолені до блиску, гра акторів ще трохи близька до театру (який теж люблю), а у перервах між перестрілками вставляють сюжет, а не романтику. Нічого не маю проти аніме, але так складається що дивлюсь рідко.
+
+      Люблю тварин. В тому числі сирих. В тому числі живих. В тому числі кішок, собак, акваріумних рибок та жабок. Не люблю людей. Навіть добре приготованих.
+
+      Не лаюсь (за можливості), не палю, не п’ю, не їм, не вишиваю хрестиком, не зустрічаюсь з дівчатами (примітка після одруження: ні з ким до дружини), не розмовляю з тілесно-духовними істотами.
+
+      Друзі про мене кажуть: коли я буваю добрий — я дуже добрий, коли злий — дуже злий © Олеся Складана; маю велике почуття гумору (що заважає у спілкуванні з тими, хто його не має (ображаються) — моя примітка; гумор здебільшого чорний — моя друга примітка); вмію вчити людей © Вікторія Лященко; всіх ненавиджу («Для тих, хто мене не знає: я ненавиджу москалів, протестантів та вантузятників. А якщо Ви випадково не потрапили до жодної з цих груп, то знайте, що це тільки тимчасово» © Христина Малишева, пародуючи мене); у мене добрі очі («Тот сверкающий взгляд, в котором еретик некогда видел первую искру своего костра» © Андре Фроссар) © Елла Голік; автономний — мене можна залишити у спокої і я буду спокійно почуватись без уваги до себе © Олексій Івченко (потребує уточнення, автор не зміг точно згадати). Все інше кажуть за спиною мої численні вороги.
+
+      В Інтернеті відомий (роботам) як Stilgar aka Стілгар aka Стілґар.
+
+      P. S. Мало що тут написано серйозно.
+    email: developer@gilevski.name
+    jabber: developer@gilevski.name
+    skype: e.gilewski
     contacts: |
-              Charleston
-              South Carolina
-              USA
+              Kyiv
+              Ukraine
+- fields:
+    codename: add_logentry
+    content_type: [admin, logentry]
+    name: Can add log entry
+  model: auth.permission
+  pk: 22
+- fields:
+    codename: change_logentry
+    content_type: [admin, logentry]
+    name: Can change log entry
+  model: auth.permission
+  pk: 23
+- fields:
+    codename: delete_logentry
+    content_type: [admin, logentry]
+    name: Can delete log entry
+  model: auth.permission
+  pk: 24
+- fields:
+    codename: add_group
+    content_type: [auth, group]
+    name: Can add group
+  model: auth.permission
+  pk: 4
+- fields:
+    codename: change_group
+    content_type: [auth, group]
+    name: Can change group
+  model: auth.permission
+  pk: 5
+- fields:
+    codename: delete_group
+    content_type: [auth, group]
+    name: Can delete group
+  model: auth.permission
+  pk: 6
+- fields:
+    codename: add_message
+    content_type: [auth, message]
+    name: Can add message
+  model: auth.permission
+  pk: 10
+- fields:
+    codename: change_message
+    content_type: [auth, message]
+    name: Can change message
+  model: auth.permission
+  pk: 11
+- fields:
+    codename: delete_message
+    content_type: [auth, message]
+    name: Can delete message
+  model: auth.permission
+  pk: 12
+- fields:
+    codename: add_permission
+    content_type: [auth, permission]
+    name: Can add permission
+  model: auth.permission
+  pk: 1
+- fields:
+    codename: change_permission
+    content_type: [auth, permission]
+    name: Can change permission
+  model: auth.permission
+  pk: 2
+- fields:
+    codename: delete_permission
+    content_type: [auth, permission]
+    name: Can delete permission
+  model: auth.permission
+  pk: 3
+- fields:
+    codename: add_user
+    content_type: [auth, user]
+    name: Can add user
+  model: auth.permission
+  pk: 7
+- fields:
+    codename: change_user
+    content_type: [auth, user]
+    name: Can change user
+  model: auth.permission
+  pk: 8
+- fields:
+    codename: delete_user
+    content_type: [auth, user]
+    name: Can delete user
+  model: auth.permission
+  pk: 9
+- fields:
+    codename: add_contenttype
+    content_type: [contenttypes, contenttype]
+    name: Can add content type
+  model: auth.permission
+  pk: 13
+- fields:
+    codename: change_contenttype
+    content_type: [contenttypes, contenttype]
+    name: Can change content type
+  model: auth.permission
+  pk: 14
+- fields:
+    codename: delete_contenttype
+    content_type: [contenttypes, contenttype]
+    name: Can delete content type
+  model: auth.permission
+  pk: 15
+- fields:
+    codename: add_profile
+    content_type: [frontpage_profile, profile]
+    name: Can add profile
+  model: auth.permission
+  pk: 25
+- fields:
+    codename: change_profile
+    content_type: [frontpage_profile, profile]
+    name: Can change profile
+  model: auth.permission
+  pk: 26
+- fields:
+    codename: delete_profile
+    content_type: [frontpage_profile, profile]
+    name: Can delete profile
+  model: auth.permission
+  pk: 27
+- fields:
+    codename: add_session
+    content_type: [sessions, session]
+    name: Can add session
+  model: auth.permission
+  pk: 16
+- fields:
+    codename: change_session
+    content_type: [sessions, session]
+    name: Can change session
+  model: auth.permission
+  pk: 17
+- fields:
+    codename: delete_session
+    content_type: [sessions, session]
+    name: Can delete session
+  model: auth.permission
+  pk: 18
+- fields:
+    codename: add_site
+    content_type: [sites, site]
+    name: Can add site
+  model: auth.permission
+  pk: 19
+- fields:
+    codename: change_site
+    content_type: [sites, site]
+    name: Can change site
+  model: auth.permission
+  pk: 20
+- fields:
+    codename: delete_site
+    content_type: [sites, site]
+    name: Can delete site
+  model: auth.permission
+  pk: 21
+- fields:
+    date_joined: 2012-02-04 18:27:06.107080
+    email: stilgar@localhost
+    first_name: ''
+    groups: []
+    is_active: true
+    is_staff: true
+    is_superuser: true
+    last_login: 2012-02-04 18:27:06.107080
+    last_name: ''
+    password: sha1$1684c$39a76346e6f89f76f9391b7bd66426af41619d13
+    user_permissions: []
+    username: admin
+  model: auth.user
+  pk: 1
