@@ -1,4 +1,4 @@
-- model: frontpage_profile.profile
+- model: user_profile.profile
   pk: 1
   fields:
     first_name: Eugene
@@ -143,24 +143,6 @@
   model: auth.permission
   pk: 15
 - fields:
-    codename: add_profile
-    content_type: [frontpage_profile, profile]
-    name: Can add profile
-  model: auth.permission
-  pk: 25
-- fields:
-    codename: change_profile
-    content_type: [frontpage_profile, profile]
-    name: Can change profile
-  model: auth.permission
-  pk: 26
-- fields:
-    codename: delete_profile
-    content_type: [frontpage_profile, profile]
-    name: Can delete profile
-  model: auth.permission
-  pk: 27
-- fields:
     codename: add_session
     content_type: [sessions, session]
     name: Can add session
@@ -197,17 +179,20 @@
   model: auth.permission
   pk: 21
 - fields:
-    date_joined: 2012-02-04 18:27:06.107080
-    email: stilgar@localhost
-    first_name: ''
-    groups: []
-    is_active: true
-    is_staff: true
-    is_superuser: true
-    last_login: 2012-02-04 18:27:06.107080
-    last_name: ''
-    password: sha1$1684c$39a76346e6f89f76f9391b7bd66426af41619d13
-    user_permissions: []
-    username: admin
-  model: auth.user
-  pk: 1
+    codename: add_profile
+    content_type: [user_profile, profile]
+    name: Can add profile
+  model: auth.permission
+  pk: 25
+- fields:
+    codename: change_profile
+    content_type: [user_profile, profile]
+    name: Can change profile
+  model: auth.permission
+  pk: 26
+- fields:
+    codename: delete_profile
+    content_type: [user_profile, profile]
+    name: Can delete profile
+  model: auth.permission
+  pk: 27
