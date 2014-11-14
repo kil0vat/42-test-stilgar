@@ -1,0 +1,5 @@
+forty_two_test_stilgar/main_db.sqlite
+.*.swp
+.*.un~
+*.pyc
+forty_two_test_stilgar/static
